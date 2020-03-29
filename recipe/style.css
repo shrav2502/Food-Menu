@@ -1,0 +1,202 @@
+.header {
+  display: flex;
+  height: 130px;
+  background-color: pink;
+  flex-direction: row;
+  border: 2px solid;
+}
+
+.one {
+  width: 200px;
+  background-color: #f3dfa5;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  font-family: Comic Sans MS;
+}
+
+.letters {
+  text-align: center;
+  border: 1px solid;
+  font-size: 30px;
+  font-weight: 800;
+  padding: 8px;
+}
+
+.two {
+  width: 700px;
+  background-color: #de9922;
+  line-height: 70px;
+  font-size: 15px;
+  font-weight: 800;
+  font-family: Comic Sans MS;
+  padding: 8px;
+}
+.three {
+  width: 400px;
+  background-color: black;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: Comic Sans MS;
+  padding: 8px;
+  color: burlywood;
+}
+
+body {
+  background-color: #f0ecf1;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  border: 3px solid black;
+  border-radius: 5px;
+}
+
+.type {
+  display: grid;
+  grid-template-columns: 70px 90px 70px 90px 70px 90px 70px 90px 70px 90px;
+  justify-content: end;
+  background-color: black;
+  color: black;
+  height: 50px;
+  grid-gap: 10px;
+  border: 2px solid black;
+  text-align: center;
+  line-height: 40px;
+  font-weight: 800;
+  font-family: Comic Sans MS;
+}
+
+.type > div {
+  background-color: pink;
+  font-size: 25px;
+  text-align: center;
+  height: 45px;
+}
+
+.toasts {
+  background-color: burlywood;
+  height: 100px;
+  border: 2px solid black;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 10px;
+  font-family: Courier New;
+  border-radius: 5px;
+}
+
+.sandwitch-menu {
+  display: grid;
+  grid-template-columns: 320px 320px 320px;
+  grid-gap: 20px;
+  background-color: #e2ddc9;
+}
+
+img {
+  height: 150px;
+  width: 250px;
+  border-radius: 50%;
+}
+
+.sandwitch-menu > div {
+  height: auto;
+  padding: 8px;
+  font-size: 20px;
+  font-family: Comic Sans MS;
+}
+
+.fries {
+  font-size: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #e2ddc9;
+  font-family: Comic Sans MS;
+}
+
+.tart-menu {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  grid-column-gap: 40px;
+  grid-row-gap: 20px;
+  padding: 8px;
+  background-color: #e2ddc9;
+  font-family: Comic Sans MS;
+}
+
+.flex {
+  display: grid;
+  grid-template-columns: 170px 200px;
+  grid-gap: 25px;
+}
+
+.tart-menu > img {
+  height: 200px;
+  width: 500px;
+}
+
+.latte {
+  display: grid;
+  grid-template-columns: 240px 240px 240px 240px;
+  grid-column-gap: 20px;
+  grid-row-gap: 10px;
+  padding: 8px;
+  background-color: #e2ddc9;
+  font-family: Comic Sans MS;
+}
+
+.latte-flex {
+  display: grid;
+  grid-template-columns: 150px 160px;
+  font-size: 13px;
+}
+
+.menu {
+  height: 100px;
+  background-color: burlywood;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 900;
+  line-height: 10px;
+  font-family: Courier New;
+  border: 2px solid black;
+}
+
+.menu:hover {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.social {
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
